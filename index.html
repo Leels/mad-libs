@@ -9,35 +9,68 @@
   </head>
   <body>
     <div class="container">
-          <h1>Fill in the blanks to write your story!</h1>
-          <div>
-            <form id="formOne">
-              <div class="form-group">
-                <label for="person1">A name</label>
-                <input id="person1" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="person2">Another name</label>
-                <input id="person2" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="animal">An animal</label>
-                <input id="animal" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="exclamation">An exclamation</label>
-                <input id="exclamation" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="verb">A past tense verb</label>
-                <input id="verb" class="form-control" type="text">
-              </div>
-              <div class="form-group">
-                <label for="noun">A noun</label>
-                <input id="noun" class="form-control" type="text">
-              </div>
-              <button type="submit" class="btn">Show me the story!</button>
-            </form>
-          </div>
+      <h1>You've got mail!  Your boss just sent you an email.</h1>
+      <h2>Fill in the blanks below.</h2>
+  <div>
+    <form id="email-form">
+      <div class="form-group">
+        <label for="date">Today's date</label>
+        <input id="date" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="greeting">Greeting</label>
+        <input id="greeting" class="form-control" type="text"
+      </div>
+      <div class="form-group">
+        <label for="name">Your name</label>
+        <input id="name" class="form-control" type="text"
+      </div>
+      <div class="form-group">
+        <label for="expletive">An expletive</label>
+        <input id="expletive" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="job-title">A job title</label>
+        <input id="job-title" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="noun">A noun</label>
+        <input id="noun" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="restaurant">A restaurant chain</label>
+        <input id="restaurant" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="job-title2">Another job title</label>
+        <input id="job-title2" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="job-title3">Yet another job title</label>
+        <input id="job-title3" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="number">A number</label>
+        <input id="number" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="goodbye-salutation">A goodbye salutation</label>
+        <input id="goodbye-salutation" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="boss-name">Your boss's name</label>
+        <input id="boss-name" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn-default">Open email!</button>
+      </form>
+      </div>
+      <div id="email">
+        <p><span class="date"></span></p>
+        <p><span class="greeting"></span> <span class="name"></span>,</p>
+        <p>WHAT THE <span class="expletive"></span>! What happened in yesterday's meeting?! I thought we had previously discussed this with the <span class="job-title"></span>? Project <span class="noun"></span> is now way behind schedule! Because of your mistake we're working through breakfast, lunch and dinner. No <span class="restaurant"></span> for you or anyone else for that matter! A demotion from <span class="job-title2"></span> to <span class="job-title3"></span> with a deduction in pay of $<span class="number"></span> is in your future if this isn't fixed by the end of the day!</p>
+        <p><span class="goodbye-salutation"></span>,</p>
+        <p><span class="boss-name"></span></p>
+       </div>
+     </div>
   </body>
 </html>
